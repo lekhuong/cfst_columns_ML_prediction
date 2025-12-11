@@ -1,0 +1,43 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Models (auto-generated on deployment)
+models/
+
+# CatBoost training artifacts
+catboost_info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
+.streamlit/secrets.toml.example
+
+# Local scripts (not needed for cloud)
+*.bat
+extract_models.py
+train_models.py
+
+# Local testing
+*.log
+.pytest_cache/
